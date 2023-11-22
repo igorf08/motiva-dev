@@ -13,7 +13,7 @@
 
 ---
 
-![Untitled](Exerci%CC%81cio%201%20-%20Jogo%20interativo%20(Console)%20080b0bebbd6e4d84a7f83789e49b4165/Untitled.png)
+![Imagem](https://i.imgur.com/hqAqT8L.png)
 
 ---
 
