@@ -15,6 +15,7 @@ function verificaInicio() {
 }
 
 function iniciaJogo() {
+  console.clear()
   const alternativasInicio = [
     "(1) Gerar frase",
     "(2) Créditos",
@@ -46,6 +47,7 @@ function menus() {
   if (parseInt(selecao) === 1) {
     console.log(`A Frase é: ${arrayFrases[escolheFrase(1)]}`);
     iniciaJogo()
+    
   } else if (parseInt(selecao) === 2) {
     console.log(`EUquipe: \n Roteiro: Igor \n Produção: Igor`)
     iniciaJogo()
