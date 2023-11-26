@@ -15,7 +15,6 @@ function verificaInicio() {
 }
 
 function iniciaJogo() {
-  console.clear()
   const alternativasInicio = [
     "(1) Gerar frase",
     "(2) Créditos",
@@ -25,14 +24,14 @@ function iniciaJogo() {
   menus();
 }
 
-//Interação com menus e escolhas.
-
-//Escolhe a frase por sortear um index
+//Escolhe a frase sorteando um index e a retorna;
 function escolheFrase() {
   let rand = Math.random() * 3;
   let retorno = Math.floor(rand);
   return retorno;
 }
+
+//Interação com menus e escolhas.
 
 function menus() {
   const selecao = prompt("Digite a sua opção:");
@@ -45,7 +44,7 @@ function menus() {
 
   //Logica para prosseguir ao sistema
   if (parseInt(selecao) === 1) {
-    console.log(`A Frase é: ${arrayFrases[escolheFrase(1)]}`);
+    alert(`A Frase é: ${arrayFrases[escolheFrase(1)]}`);
     iniciaJogo()
     
   } else if (parseInt(selecao) === 2) {
@@ -57,6 +56,4 @@ function menus() {
   }
 
 
-}
-
-verificaInicio();
+};
